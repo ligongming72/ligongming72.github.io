@@ -1,62 +1,41 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ligmongming 的小站</title>
-<style>
-  body{
-    font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
-    text-align:center;padding:50px 20px;margin:0;
-    background:linear-gradient(180deg,#eef4ff,#ffffff);
-    color:#222;
-  }
-  h1{font-size:26px;margin-bottom:6px;}
-  .sub{color:#888;font-size:14px;margin-bottom:30px;}
-  .card{
-    max-width:360px;margin:0 auto 16px;padding:18px;
-    background:#fff;border-radius:14px;
-    box-shadow:0 2px 10px rgba(0,0,0,.06);
-  }
-  .card b{display:block;font-size:13px;color:#999;margin-bottom:6px;}
-  a.btn{
-    display:inline-block;margin-top:10px;padding:12px 26px;
-    background:#2f6bff;color:#fff;text-decoration:none;
-    border-radius:30px;font-size:16px;
-  }
-  a.btn:active{background:#1b4fd0;}
-  #clock{color:#2f6bff;font-weight:bold;}
-  footer{margin-top:30px;color:#aaa;font-size:12px;}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>华山小道</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-  <h1>👋 你好，我是 ligmongming</h1>
-  <p class="sub">这是我白嫖 GitHub 搭的小站，纯玩～</p>
-
-  <div class="card">
-    <b>今天</b>
-    <span id="clock"></span>
-  </div>
-
-  <div class="card">
-    <b>联系我</b>
-    📧 lgmlwy@163.com
-    <br>
-    <a class="btn" href="mailto:lgmlwy@163.com?subject=你好呀&body=从你的小站找到你的～">✉️ 点我发邮件</a>
-  </div>
-
-  <div class="card">
-    <b>一句话</b>
-    🌱 页面会长大，我也会。
-  </div>
-
-  <footer>托管于 GitHub Pages · 免费</footer>
-
-<script>
-  var d=new Date();
-  var w="日一二三四五六"[d.getDay()];
-  document.getElementById("clock").textContent=
-    d.getFullYear()+"年"+(d.getMonth()+1)+"月"+d.getDate()+"日 星期"+w;
-</script>
+    <div class="container">
+        <h1>华山小道</h1>
+        <p>你好，我是 ligongming</p>
+    </div>
 </body>
 </html>
